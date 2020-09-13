@@ -93,6 +93,7 @@ router.post('/add', checkToken,/* upload.single('imgUrl'), uploadLogo.single('im
         astxik: req.body.astxik,
         // imgUrl: req.file.path,
         // imgLogo: req.file.path,
+        help: req.body.help,
         imgUrl: req.body.imgUrl,
         imgLogo: req.body.imgLogo,
         level: req.body.level,
